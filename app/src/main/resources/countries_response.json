@@ -1,0 +1,6178 @@
+{
+  "countries": [
+    {
+      "code": "001",
+      "isoCode": "ES",
+      "isoMango": "ES",
+      "name": "Spain (Peninsula and Balearic Islands)",
+      "analyticsLabel": "espana (peninsula y baleares)",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        },
+        {
+          "code": "CA",
+          "iso2": "ca",
+          "label": "Català"
+        }
+      ],
+      "mng": false,
+      "states": true,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 30,
+      "shipmentPrice": 2.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "003",
+      "isoCode": "NL",
+      "isoMango": "NL",
+      "name": "Netherlands",
+      "analyticsLabel": "paises bajos",
+      "languages": [
+        {
+          "code": "NL",
+          "iso2": "nl",
+          "label": "Nederlands"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "EUR %@",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 30,
+      "shipmentPrice": 2.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "004",
+      "isoCode": "DE",
+      "isoMango": "DE",
+      "name": "Germany",
+      "analyticsLabel": "alemania",
+      "languages": [
+        {
+          "code": "AL",
+          "iso2": "de",
+          "label": "Deutsch"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 30,
+      "shipmentPrice": 2.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": true,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "005",
+      "isoCode": "IT",
+      "isoMango": "IT",
+      "name": "Italy",
+      "analyticsLabel": "italia",
+      "languages": [
+        {
+          "code": "IT",
+          "iso2": "it",
+          "label": "Italiano"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 30,
+      "shipmentPrice": 2.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "006",
+      "isoCode": "GB",
+      "isoMango": "GB",
+      "name": "United Kingdom",
+      "analyticsLabel": "reino unido",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "GBP",
+        "format": "GBP %@",
+        "symbol": "GBP"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1000,
+      "freeShippingMinAmount": 30,
+      "shipmentPrice": 2.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "007",
+      "isoCode": "IE",
+      "isoMango": "IE",
+      "name": "Ireland",
+      "analyticsLabel": "irlanda",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "EUR %@",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 50,
+      "shipmentPrice": 5.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "008",
+      "isoCode": "DK",
+      "isoMango": "DK",
+      "name": "Denmark",
+      "analyticsLabel": "dinamarca",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "DKK",
+        "format": "%@ DKK",
+        "symbol": "DKK"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 11200,
+      "freeShippingMinAmount": 250,
+      "shipmentPrice": 29,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "009",
+      "isoCode": "GR",
+      "isoMango": "GR",
+      "name": "Greece",
+      "analyticsLabel": "grecia",
+      "languages": [
+        {
+          "code": "EL",
+          "iso2": "el",
+          "label": "Ελληνικά"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 50,
+      "shipmentPrice": 5.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "010",
+      "isoCode": "PT",
+      "isoMango": "PT",
+      "name": "Portugal",
+      "analyticsLabel": "portugal",
+      "languages": [
+        {
+          "code": "PO",
+          "iso2": "pt",
+          "label": "Portugues"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 30,
+      "shipmentPrice": 2.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "011",
+      "isoCode": "FR",
+      "isoMango": "FR",
+      "name": "France",
+      "analyticsLabel": "francia",
+      "languages": [
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 30,
+      "shipmentPrice": 2.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "015",
+      "isoCode": "MC",
+      "isoMango": "MC",
+      "name": "Monaco",
+      "analyticsLabel": "monaco",
+      "languages": [
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "EUR %@",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 30,
+      "shipmentPrice": 2.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "017",
+      "isoCode": "BE",
+      "isoMango": "BE",
+      "name": "Belgium",
+      "analyticsLabel": "belgica",
+      "languages": [
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        },
+        {
+          "code": "NL",
+          "iso2": "nl",
+          "label": "Nederlands"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 30,
+      "shipmentPrice": 2.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "018",
+      "isoCode": "LU",
+      "isoMango": "LU",
+      "name": "Luxembourg",
+      "analyticsLabel": "luxemburgo",
+      "languages": [
+        {
+          "code": "AL",
+          "iso2": "de",
+          "label": "Deutsch"
+        },
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 30,
+      "shipmentPrice": 2.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "019",
+      "isoCode": "GB",
+      "isoMango": "GB1",
+      "name": "United Kingdom (Channel Islands)",
+      "analyticsLabel": "reino unido (islas del canal)",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "GBP",
+        "format": "GBP %@",
+        "symbol": "GBP"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1000,
+      "freeShippingMinAmount": 50,
+      "shipmentPrice": 5.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "021",
+      "isoCode": "ES",
+      "isoMango": "ES1",
+      "name": "Spain (Canary Islands)",
+      "analyticsLabel": "espana (islas canarias)",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 50,
+      "shipmentPrice": 2.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "022",
+      "isoCode": "ES",
+      "isoMango": "ES2",
+      "name": "Spain (Ceuta)",
+      "analyticsLabel": "espana (ceuta)",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 50,
+      "shipmentPrice": 2.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "023",
+      "isoCode": "ES",
+      "isoMango": "ES3",
+      "name": "Spain (Melilla)",
+      "analyticsLabel": "espana (melilla)",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 50,
+      "shipmentPrice": 2.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "024",
+      "isoCode": "IS",
+      "isoMango": "IS",
+      "name": "Iceland ",
+      "analyticsLabel": "islandia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 60,
+      "shipmentPrice": 6.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "028",
+      "isoCode": "NO",
+      "isoMango": "NO",
+      "name": "Norway",
+      "analyticsLabel": "noruega",
+      "languages": [
+        {
+          "code": "NO",
+          "iso2": "no",
+          "label": "Norsk"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "NOK",
+        "format": "%@ NOK",
+        "symbol": "NOK"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 12000,
+      "freeShippingMinAmount": 299,
+      "shipmentPrice": 49,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "030",
+      "isoCode": "SE",
+      "isoMango": "SE",
+      "name": "Sweden",
+      "analyticsLabel": "suecia",
+      "languages": [
+        {
+          "code": "SV",
+          "iso2": "sv",
+          "label": "Svenska"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "SEK",
+        "format": "%@ SEK",
+        "symbol": "SEK"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 14000,
+      "freeShippingMinAmount": 350,
+      "shipmentPrice": 49,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "032",
+      "isoCode": "FI",
+      "isoMango": "FI",
+      "name": "Finland",
+      "analyticsLabel": "finlandia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 29,
+      "shipmentPrice": 5.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "036",
+      "isoCode": "CH",
+      "isoMango": "CH",
+      "name": "Switzerland",
+      "analyticsLabel": "suiza",
+      "languages": [
+        {
+          "code": "AL",
+          "iso2": "de",
+          "label": "Deutsch"
+        },
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "CHF",
+        "format": "%@ CHF",
+        "symbol": "CHF"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 2300,
+      "freeShippingMinAmount": 40,
+      "shipmentPrice": 7.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "037",
+      "isoCode": "LI",
+      "isoMango": "LI",
+      "name": "Liechtenstein",
+      "analyticsLabel": "liechtenstein",
+      "languages": [
+        {
+          "code": "AL",
+          "iso2": "de",
+          "label": "Deutsch"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "CHF",
+        "format": "CHF %@",
+        "symbol": "CHF"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 2300,
+      "freeShippingMinAmount": 45,
+      "shipmentPrice": 17.9,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "038",
+      "isoCode": "AT",
+      "isoMango": "AT",
+      "name": "Austria",
+      "analyticsLabel": "austria",
+      "languages": [
+        {
+          "code": "AL",
+          "iso2": "de",
+          "label": "Deutsch"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 30,
+      "shipmentPrice": 2.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "043",
+      "isoCode": "AD",
+      "isoMango": "AD",
+      "name": "Andorra",
+      "analyticsLabel": "andorra",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        },
+        {
+          "code": "CA",
+          "iso2": "ca",
+          "label": "Català"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 150,
+      "shipmentPrice": 11.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "044",
+      "isoCode": "GI",
+      "isoMango": "GI",
+      "name": "Gibraltar",
+      "analyticsLabel": "gibraltar",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "GIP",
+        "format": "GIP %@",
+        "symbol": "GIP"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "046",
+      "isoCode": "MT",
+      "isoMango": "MT",
+      "name": "Malta",
+      "analyticsLabel": "malta",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 150,
+      "shipmentPrice": 11.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "052",
+      "isoCode": "TR",
+      "isoMango": "TR",
+      "name": "Turkey",
+      "analyticsLabel": "turquia",
+      "languages": [
+        {
+          "code": "TR",
+          "iso2": "tr",
+          "label": "Türkçe"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "TRY",
+        "format": "%@ TRY",
+        "symbol": "TRY"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 3500,
+      "freeShippingMinAmount": 200,
+      "shipmentPrice": 5.9,
+      "newsletterCheck": false,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": true,
+      "gdpr": true
+    },
+    {
+      "code": "053",
+      "isoCode": "EE",
+      "isoMango": "EE",
+      "name": "Estonia",
+      "analyticsLabel": "estonia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1000,
+      "freeShippingMinAmount": 60,
+      "shipmentPrice": 5.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "054",
+      "isoCode": "LV",
+      "isoMango": "LV",
+      "name": "Latvia",
+      "analyticsLabel": "letonia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1000,
+      "freeShippingMinAmount": 60,
+      "shipmentPrice": 5.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "055",
+      "isoCode": "LT",
+      "isoMango": "LT",
+      "name": "Lithuania",
+      "analyticsLabel": "lituania",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1000,
+      "freeShippingMinAmount": 50,
+      "shipmentPrice": 5.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "060",
+      "isoCode": "PL",
+      "isoMango": "PL",
+      "name": "Poland",
+      "analyticsLabel": "polonia",
+      "languages": [
+        {
+          "code": "PL",
+          "iso2": "pl",
+          "label": "Polska"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "PLN",
+        "format": "%@ PLN",
+        "symbol": "PLN"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 5800,
+      "freeShippingMinAmount": 99,
+      "shipmentPrice": 9.9,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "061",
+      "isoCode": "CZ",
+      "isoMango": "CZ",
+      "name": "Czech Republic",
+      "analyticsLabel": "republica checa",
+      "languages": [
+        {
+          "code": "CS",
+          "iso2": "cs",
+          "label": "Čeština"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "CZK",
+        "format": "%@ CZK",
+        "symbol": "CZK"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 43000,
+      "freeShippingMinAmount": 950,
+      "shipmentPrice": 150,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "063",
+      "isoCode": "SK",
+      "isoMango": "SK",
+      "name": "Slovakia",
+      "analyticsLabel": "eslovaquia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 35,
+      "shipmentPrice": 5.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "064",
+      "isoCode": "HU",
+      "isoMango": "HU",
+      "name": "Hungary",
+      "analyticsLabel": "hungria",
+      "languages": [
+        {
+          "code": "HU",
+          "iso2": "hu",
+          "label": "Magyar"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "HUF",
+        "format": "%@ HUF",
+        "symbol": "HUF"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 375000,
+      "freeShippingMinAmount": 10000,
+      "shipmentPrice": 1495,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "066",
+      "isoCode": "RO",
+      "isoMango": "RO",
+      "name": "Romania",
+      "analyticsLabel": "rumania",
+      "languages": [
+        {
+          "code": "RO",
+          "iso2": "ro",
+          "label": "Româna"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "RON",
+        "format": "%@ RON",
+        "symbol": "RON"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 6600,
+      "freeShippingMinAmount": 250,
+      "shipmentPrice": 29,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "068",
+      "isoCode": "BG",
+      "isoMango": "BG",
+      "name": "Bulgaria",
+      "analyticsLabel": "bulgaria",
+      "languages": [
+        {
+          "code": "BG",
+          "iso2": "bg",
+          "label": "български"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "BGN",
+        "format": "%@ BGN",
+        "symbol": "BGN"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 3000,
+      "freeShippingMinAmount": 100,
+      "shipmentPrice": 15,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "070",
+      "isoCode": "AL",
+      "isoMango": "AL",
+      "name": "Albania",
+      "analyticsLabel": "albania",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "ALL",
+        "format": "ALL %@",
+        "symbol": "ALL"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 210000,
+      "freeShippingMinAmount": 15000,
+      "shipmentPrice": 1500,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "072",
+      "isoCode": "UA",
+      "isoMango": "UA",
+      "name": "Ukraine",
+      "analyticsLabel": "ucrania",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        },
+        {
+          "code": "RU",
+          "iso2": "ru",
+          "label": "Русский"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "UAH",
+        "format": "%@ UAH",
+        "symbol": "UAH"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 41468,
+      "freeShippingMinAmount": 990,
+      "shipmentPrice": 70,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "073",
+      "isoCode": "BY",
+      "isoMango": "BY",
+      "name": "Belarus",
+      "analyticsLabel": "belarus",
+      "languages": [
+        {
+          "code": "RU",
+          "iso2": "ru",
+          "label": "Русский"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "BYR",
+        "format": "BYR %@",
+        "symbol": "BYR"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 15000000,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "074",
+      "isoCode": "MD",
+      "isoMango": "MD",
+      "name": "Moldova",
+      "analyticsLabel": "moldavia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "MDL",
+        "format": "MDL %@",
+        "symbol": "MDL"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "075",
+      "isoCode": "RU",
+      "isoMango": "RU",
+      "name": "Russia (Russian Federation)",
+      "analyticsLabel": "rusia",
+      "languages": [
+        {
+          "code": "RU",
+          "iso2": "ru",
+          "label": "Русский"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "RUB",
+        "format": "%@ RUB",
+        "symbol": "RUB"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 80000,
+      "freeShippingMinAmount": 1500,
+      "shipmentPrice": 250,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "076",
+      "isoCode": "GE",
+      "isoMango": "GE",
+      "name": "Georgia",
+      "analyticsLabel": "georgia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "GEL",
+        "format": "GEL %@",
+        "symbol": "GEL"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "077",
+      "isoCode": "AM",
+      "isoMango": "AM",
+      "name": "Armenia",
+      "analyticsLabel": "armenia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        },
+        {
+          "code": "RU",
+          "iso2": "ru",
+          "label": "Русский"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "AMD",
+        "format": "AMD %@",
+        "symbol": "AMD"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "078",
+      "isoCode": "AZ",
+      "isoMango": "AZ",
+      "name": "Azerbaijan",
+      "analyticsLabel": "azerbaiyan",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        },
+        {
+          "code": "RU",
+          "iso2": "ru",
+          "label": "Русский"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "AZN",
+        "format": "AZN %@",
+        "symbol": "AZN"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "nina",
+        "nino",
+        "baby",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "079",
+      "isoCode": "KZ",
+      "isoMango": "KZ",
+      "name": "Kazakhstan",
+      "analyticsLabel": "kazajistan",
+      "languages": [
+        {
+          "code": "RU",
+          "iso2": "ru",
+          "label": "Русский"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "KZT",
+        "format": "%@ KZT",
+        "symbol": "KZT"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 250000,
+      "freeShippingMinAmount": 11500,
+      "shipmentPrice": 1000,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "081",
+      "isoCode": "UZ",
+      "isoMango": "UZ",
+      "name": "Uzbekistan",
+      "analyticsLabel": "uzbekistan",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "UZS",
+        "format": "%@ UZS",
+        "symbol": "UZS"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 4500000,
+      "freeShippingMinAmount": 300000,
+      "shipmentPrice": 30000,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "083",
+      "isoCode": "KG",
+      "isoMango": "KG",
+      "name": "Kyrgyzstan ",
+      "analyticsLabel": "kirguizistan",
+      "languages": [
+        {
+          "code": "RU",
+          "iso2": "ru",
+          "label": "Русский"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "KGS",
+        "format": "KGS %@",
+        "symbol": "KGS"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "090",
+      "isoCode": "ME",
+      "isoMango": "ME",
+      "name": "Montenegro",
+      "analyticsLabel": "montenegro",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "EUR %@",
+        "symbol": "EUR"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "091",
+      "isoCode": "SI",
+      "isoMango": "SI",
+      "name": "Slovenia",
+      "analyticsLabel": "eslovenia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 60,
+      "shipmentPrice": 5.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "092",
+      "isoCode": "HR",
+      "isoMango": "HR",
+      "name": "Croatia",
+      "analyticsLabel": "croacia",
+      "languages": [
+        {
+          "code": "HR",
+          "iso2": "hr",
+          "label": "Hrvatski"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "HRK",
+        "format": "%@ HRK",
+        "symbol": "HRK"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 8500,
+      "freeShippingMinAmount": 300,
+      "shipmentPrice": 39,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "093",
+      "isoCode": "BA",
+      "isoMango": "BA",
+      "name": "Bosnia and Herzegovina ",
+      "analyticsLabel": "bosnia-herzegovina",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "BAM",
+        "format": "%@ BAM",
+        "symbol": "BAM"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1300,
+      "freeShippingMinAmount": 150,
+      "shipmentPrice": 15,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "094",
+      "isoCode": "RS",
+      "isoMango": "RS",
+      "name": "Serbia",
+      "analyticsLabel": "serbia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "RSD",
+        "format": "%@ RSD",
+        "symbol": "RSD"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 170000,
+      "freeShippingMinAmount": 9000,
+      "shipmentPrice": 850,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "095",
+      "isoCode": "BA",
+      "isoMango": "BA1",
+      "name": "Kosovo",
+      "analyticsLabel": "kosovo",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "EUR %@",
+        "symbol": "EUR"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "096",
+      "isoCode": "MK",
+      "isoMango": "MK",
+      "name": "Macedonia ",
+      "analyticsLabel": "macedonia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "MKD",
+        "format": "MKD %@",
+        "symbol": "MKD"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "204",
+      "isoCode": "MA",
+      "isoMango": "MA",
+      "name": "Morocco",
+      "analyticsLabel": "marruecos",
+      "languages": [
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "MAD",
+        "format": "MAD %@",
+        "symbol": "MAD"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "212",
+      "isoCode": "TN",
+      "isoMango": "TN",
+      "name": "Tunisia",
+      "analyticsLabel": "tunez",
+      "languages": [
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "TND",
+        "format": "TND %@",
+        "symbol": "TND"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "216",
+      "isoCode": "LY",
+      "isoMango": "LY",
+      "name": "Libya",
+      "analyticsLabel": "libia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "LYD",
+        "format": "LYD %@",
+        "symbol": "LYD"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "220",
+      "isoCode": "EG",
+      "isoMango": "EG",
+      "name": "Egypt",
+      "analyticsLabel": "egipto",
+      "languages": [
+        {
+          "code": "AR",
+          "iso2": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EGP",
+        "format": "%@ EGP",
+        "symbol": "EGP"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 12000,
+      "freeShippingMinAmount": 599,
+      "shipmentPrice": 99,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "236",
+      "isoCode": "BF",
+      "isoMango": "BF",
+      "name": "Burkina Faso",
+      "analyticsLabel": "burkina faso",
+      "languages": [
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "XOF",
+        "format": "XOF %@",
+        "symbol": "XOF"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "shops": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "248",
+      "isoCode": "SN",
+      "isoMango": "SN",
+      "name": "Senegal",
+      "analyticsLabel": "senegal",
+      "languages": [
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "XOF",
+        "format": "XOF %@",
+        "symbol": "XOF"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "272",
+      "isoCode": "CI",
+      "isoMango": "CI",
+      "name": "Côte d'Ivoire",
+      "analyticsLabel": "costa del marfil",
+      "languages": [
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "XOF",
+        "format": "XOF %@",
+        "symbol": "XOF"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "276",
+      "isoCode": "GH",
+      "isoMango": "GH",
+      "name": "Ghana",
+      "analyticsLabel": "ghana",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "GHS",
+        "format": "GHS %@",
+        "symbol": "GHS"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "284",
+      "isoCode": "BJ",
+      "isoMango": "BJ",
+      "name": "Benin",
+      "analyticsLabel": "benin",
+      "languages": [
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "XOF",
+        "format": "XOF %@",
+        "symbol": "XOF"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "shops": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "288",
+      "isoCode": "NG",
+      "isoMango": "NG",
+      "name": "Nigeria",
+      "analyticsLabel": "nigeria",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "NGN",
+        "format": "NGN %@",
+        "symbol": "NGN"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "302",
+      "isoCode": "CM",
+      "isoMango": "CM",
+      "name": "Cameroon",
+      "analyticsLabel": "camerun",
+      "languages": [
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "XAF",
+        "format": "XAF %@",
+        "symbol": "XAF"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "shops": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "322",
+      "isoCode": "CD",
+      "isoMango": "CD",
+      "name": "Democratic Republic of Congo",
+      "analyticsLabel": "democratic republic of congo",
+      "languages": [
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "CDF",
+        "format": "CDF %@",
+        "symbol": "CDF"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "shops": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "330",
+      "isoCode": "AO",
+      "isoMango": "AO",
+      "name": "Angola",
+      "analyticsLabel": "angola",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "AOA",
+        "format": "AOA %@",
+        "symbol": "AOA"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "346",
+      "isoCode": "KE",
+      "isoMango": "KE",
+      "name": "Kenya",
+      "analyticsLabel": "kenia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "KES",
+        "format": "KES %@",
+        "symbol": "KES"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "372",
+      "isoCode": "RE",
+      "isoMango": "RE",
+      "name": "France (Réunion) ",
+      "analyticsLabel": "francia (reunion)",
+      "languages": [
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "EUR %@",
+        "symbol": "EUR"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "373",
+      "isoCode": "MU",
+      "isoMango": "MU",
+      "name": "Mauritius",
+      "analyticsLabel": "mauricio",
+      "languages": [
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "MUR",
+        "format": "MUR %@",
+        "symbol": "MUR"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "388",
+      "isoCode": "ZA",
+      "isoMango": "ZA",
+      "name": "South Africa",
+      "analyticsLabel": "sudafrica",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": true,
+      "currency": {
+        "code": "ZAR",
+        "format": "ZAR %@",
+        "symbol": "ZAR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 19000,
+      "freeShippingMinAmount": 990,
+      "shipmentPrice": 120,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "400",
+      "isoCode": "US",
+      "isoMango": "US",
+      "name": "USA",
+      "analyticsLabel": "ee.uu",
+      "languages": [
+        {
+          "code": "US",
+          "iso2": "en",
+          "label": "English (USA)"
+        },
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "USD",
+        "format": "%@ USD",
+        "symbol": "$"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 2000,
+      "freeShippingMinAmount": 50,
+      "shipmentPrice": 4.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "404",
+      "isoCode": "CA",
+      "isoMango": "CA",
+      "name": "Canada",
+      "analyticsLabel": "canada",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        },
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "CAD",
+        "format": "%@ CAD",
+        "symbol": "CAD"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 2500,
+      "freeShippingMinAmount": 75,
+      "shipmentPrice": 4.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "412",
+      "isoCode": "MX",
+      "isoMango": "MX",
+      "name": "Mexico",
+      "analyticsLabel": "mexico",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "MXN",
+        "format": "%@ MXN",
+        "symbol": "MXN"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 32000,
+      "freeShippingMinAmount": 899,
+      "shipmentPrice": 69,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "413",
+      "isoCode": "BM",
+      "isoMango": "BM",
+      "name": "Bermuda ",
+      "analyticsLabel": "bermudas",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "USD",
+        "format": "USD %@",
+        "symbol": "$"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "416",
+      "isoCode": "GT",
+      "isoMango": "GT",
+      "name": "Guatemala",
+      "analyticsLabel": "guatemala",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": true,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "GTQ",
+        "format": "GTQ %@",
+        "symbol": "GTQ"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 7770,
+      "freeShippingMinAmount": 800,
+      "shipmentPrice": 100,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "428",
+      "isoCode": "SV",
+      "isoMango": "SV",
+      "name": "El Salvador",
+      "analyticsLabel": "el salvador",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "USD",
+        "format": "%@ USD",
+        "symbol": "$"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 75,
+      "shipmentPrice": 6.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "432",
+      "isoCode": "NI",
+      "isoMango": "NI",
+      "name": "Nicaragua",
+      "analyticsLabel": "nicaragua",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": true,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "USD",
+        "format": "%@ USD",
+        "symbol": "$"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1000,
+      "freeShippingMinAmount": 100,
+      "shipmentPrice": 9.5,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "436",
+      "isoCode": "CR",
+      "isoMango": "CR",
+      "name": "Costa Rica",
+      "analyticsLabel": "costa rica",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "CRC",
+        "format": "%@ CRC",
+        "symbol": "CRC"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 500000,
+      "freeShippingMinAmount": 60000,
+      "shipmentPrice": 5000,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "442",
+      "isoCode": "PA",
+      "isoMango": "PA",
+      "name": "Panama",
+      "analyticsLabel": "panama",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": true,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "USD",
+        "format": "%@ USD",
+        "symbol": "$"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1000,
+      "freeShippingMinAmount": 100,
+      "shipmentPrice": 9.5,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "448",
+      "isoCode": "CU",
+      "isoMango": "CU",
+      "name": "Cuba",
+      "analyticsLabel": "cuba",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": true,
+      "currency": {
+        "code": "CUP",
+        "format": "CUP %@",
+        "symbol": "CUP"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "456",
+      "isoCode": "DO",
+      "isoMango": "DO",
+      "name": "Dominican Republic",
+      "analyticsLabel": "republica dominicana",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "DOP",
+        "format": "DOP %@",
+        "symbol": "DOP"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "458",
+      "isoCode": "GP",
+      "isoMango": "GP",
+      "name": "France (Guadeloupe) ",
+      "analyticsLabel": "francia (guadalupe)",
+      "languages": [
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 75,
+      "shipmentPrice": 6.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "474",
+      "isoCode": "AW",
+      "isoMango": "AW",
+      "name": "Aruba",
+      "analyticsLabel": "aruba",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "AWG",
+        "format": "%@ AWG",
+        "symbol": "AWG"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 3600,
+      "freeShippingMinAmount": 200,
+      "shipmentPrice": 19,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "475",
+      "isoCode": "MQ",
+      "isoMango": "MQ",
+      "name": "France (Martinique)\r\r\n",
+      "analyticsLabel": "francia (martinica)",
+      "languages": [
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "EUR %@",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 75,
+      "shipmentPrice": 6.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "478",
+      "isoCode": "CW",
+      "isoMango": "CW",
+      "name": "Curaçao",
+      "analyticsLabel": "curazao",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "ANG",
+        "format": "ANG %@",
+        "symbol": "ANG"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 3600,
+      "freeShippingMinAmount": 200,
+      "shipmentPrice": 19,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "480",
+      "isoCode": "CO",
+      "isoMango": "CO",
+      "name": "Colombia",
+      "analyticsLabel": "colombia",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": true,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "COP",
+        "format": "%@ COP",
+        "symbol": "COP"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 2500000,
+      "freeShippingMinAmount": 250000,
+      "shipmentPrice": 8000,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "484",
+      "isoCode": "VE",
+      "isoMango": "VE",
+      "name": "Venezuela",
+      "analyticsLabel": "venezuela",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": true,
+      "states": false,
+      "inverseSeason": true,
+      "currency": {
+        "code": "VEF",
+        "format": "VEF %@",
+        "symbol": "VEF"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "492",
+      "isoCode": "SR",
+      "isoMango": "SR",
+      "name": "Suriname",
+      "analyticsLabel": "surinam",
+      "languages": [
+        {
+          "code": "NL",
+          "iso2": "nl",
+          "label": "Nederlands"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "496",
+      "isoCode": "GF",
+      "isoMango": "GF",
+      "name": "French Guiana ",
+      "analyticsLabel": "guyana francesa",
+      "languages": [
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "EUR %@",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 75,
+      "shipmentPrice": 6.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "500",
+      "isoCode": "EC",
+      "isoMango": "EC",
+      "name": "Ecuador",
+      "analyticsLabel": "ecuador",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": true,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "USD",
+        "format": "%@ USD",
+        "symbol": "$"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "504",
+      "isoCode": "PE",
+      "isoMango": "PE",
+      "name": "Peru",
+      "analyticsLabel": "peru",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": true,
+      "currency": {
+        "code": "PEN",
+        "format": "PEN %@",
+        "symbol": "PEN"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "kids",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "508",
+      "isoCode": "BR",
+      "isoMango": "BR",
+      "name": "Brazil ",
+      "analyticsLabel": "brasil",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        },
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": true,
+      "currency": {
+        "code": "BRL",
+        "format": "%@ BRL",
+        "symbol": "BRL"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "512",
+      "isoCode": "CL",
+      "isoMango": "CL",
+      "name": "Chile",
+      "analyticsLabel": "chile",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": true,
+      "currency": {
+        "code": "CLP",
+        "format": "CLP %@",
+        "symbol": "CLP"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "kids",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "516",
+      "isoCode": "BO",
+      "isoMango": "BO",
+      "name": "Bolivia",
+      "analyticsLabel": "bolivia",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": true,
+      "states": false,
+      "inverseSeason": true,
+      "currency": {
+        "code": "BOB",
+        "format": "%@ BOB",
+        "symbol": "BOB"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "kids",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "520",
+      "isoCode": "PY",
+      "isoMango": "PY",
+      "name": "Paraguay",
+      "analyticsLabel": "paraguay",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": true,
+      "currency": {
+        "code": "PYG",
+        "format": "PYG %@",
+        "symbol": "PYG"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "kids",
+        "baby",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "524",
+      "isoCode": "UY",
+      "isoMango": "UY",
+      "name": "Uruguay",
+      "analyticsLabel": "uruguay",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "UYU",
+        "format": "UYU %@",
+        "symbol": "UYU"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "528",
+      "isoCode": "AR",
+      "isoMango": "AR",
+      "name": "Argentina",
+      "analyticsLabel": "argentina",
+      "languages": [
+        {
+          "code": "ES",
+          "iso2": "es",
+          "label": "Castellano"
+        }
+      ],
+      "mng": true,
+      "states": false,
+      "inverseSeason": true,
+      "currency": {
+        "code": "ARS",
+        "format": "%@ ARS",
+        "symbol": "ARS"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "600",
+      "isoCode": "CY",
+      "isoMango": "CY",
+      "name": "Cyprus (Euros)",
+      "analyticsLabel": "chipre (euros)",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 150,
+      "shipmentPrice": 11.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "602",
+      "isoCode": "CY",
+      "isoMango": "CY1",
+      "name": "North Cyprus (Turkish lira)",
+      "analyticsLabel": "chipre norte (liras turcas)",
+      "languages": [
+        {
+          "code": "TR",
+          "iso2": "tr",
+          "label": "Türkçe"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "TRY",
+        "format": "TRY %@",
+        "symbol": "TRY"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "shops": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": false,
+      "gdpr": true
+    },
+    {
+      "code": "604",
+      "isoCode": "LB",
+      "isoMango": "LB",
+      "name": "Lebanon",
+      "analyticsLabel": "libano",
+      "languages": [
+        {
+          "code": "AR",
+          "iso2": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "LBP",
+        "format": "%@ LBP",
+        "symbol": "LBP"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1507500,
+      "freeShippingMinAmount": 200000,
+      "shipmentPrice": 24900,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "608",
+      "isoCode": "SY",
+      "isoMango": "SY",
+      "name": "Syria ",
+      "analyticsLabel": "siria",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "EUR",
+        "format": "%@ EUR",
+        "symbol": "EUR"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "612",
+      "isoCode": "IQ",
+      "isoMango": "IQ",
+      "name": "Iraq",
+      "analyticsLabel": "irak",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "IQD",
+        "format": "IQD %@",
+        "symbol": "IQD"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "616",
+      "isoCode": "IR",
+      "isoMango": "IR",
+      "name": "Iran",
+      "analyticsLabel": "iran",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "IRR",
+        "format": "IRR %@",
+        "symbol": "IRR"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "624",
+      "isoCode": "IL",
+      "isoMango": "IL",
+      "name": "Israel",
+      "analyticsLabel": "israel",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "ILS",
+        "format": "ILS %@",
+        "symbol": "ILS"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "kids",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "628",
+      "isoCode": "JO",
+      "isoMango": "JO",
+      "name": "Jordan",
+      "analyticsLabel": "jordania",
+      "languages": [
+        {
+          "code": "AR",
+          "iso2": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "JOD",
+        "format": "%@ JOD",
+        "symbol": "JOD"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 700,
+      "freeShippingMinAmount": 100,
+      "shipmentPrice": 10,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "632",
+      "isoCode": "SA",
+      "isoMango": "SA",
+      "name": "Saudi Arabia",
+      "analyticsLabel": "arabia saudi",
+      "languages": [
+        {
+          "code": "AR",
+          "iso2": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "SAR",
+        "format": "SAR %@",
+        "symbol": "SAR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "nina",
+        "nino",
+        "baby",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 7497,
+      "freeShippingMinAmount": 250,
+      "shipmentPrice": 25,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "636",
+      "isoCode": "KW",
+      "isoMango": "KW",
+      "name": "Kuwait",
+      "analyticsLabel": "kuwait",
+      "languages": [
+        {
+          "code": "AR",
+          "iso2": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "KWD",
+        "format": "%@ KWD",
+        "symbol": "KWD"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 244,
+      "freeShippingMinAmount": 20,
+      "shipmentPrice": 4,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "640",
+      "isoCode": "BH",
+      "isoMango": "BH",
+      "name": "Bahrain",
+      "analyticsLabel": "bahrein",
+      "languages": [
+        {
+          "code": "AR",
+          "iso2": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "BHD",
+        "format": "BHD %@",
+        "symbol": "BHD"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 306,
+      "freeShippingMinAmount": 50,
+      "shipmentPrice": 6,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "644",
+      "isoCode": "QA",
+      "isoMango": "QA",
+      "name": "Qatar",
+      "analyticsLabel": "qatar",
+      "languages": [
+        {
+          "code": "AR",
+          "iso2": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "QAR",
+        "format": "QAR %@",
+        "symbol": "QAR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 2953,
+      "freeShippingMinAmount": 200,
+      "shipmentPrice": 29,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "647",
+      "isoCode": "AE",
+      "isoMango": "AE",
+      "name": "United Arab Emirates",
+      "analyticsLabel": "emiratos arabes unidos",
+      "languages": [
+        {
+          "code": "AR",
+          "iso2": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "AED",
+        "format": "%@ AED",
+        "symbol": "AED"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 3650,
+      "freeShippingMinAmount": 300,
+      "shipmentPrice": 25,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "649",
+      "isoCode": "OM",
+      "isoMango": "OM",
+      "name": "Oman",
+      "analyticsLabel": "oman",
+      "languages": [
+        {
+          "code": "AR",
+          "iso2": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "OMR",
+        "format": "%@ OMR",
+        "symbol": "OMR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 313,
+      "freeShippingMinAmount": 50,
+      "shipmentPrice": 5,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "662",
+      "isoCode": "PK",
+      "isoMango": "PK",
+      "name": "Pakistan",
+      "analyticsLabel": "pakistan",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "PKR",
+        "format": "PKR %@",
+        "symbol": "PKR"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "664",
+      "isoCode": "IN",
+      "isoMango": "IN",
+      "name": "India",
+      "analyticsLabel": "india",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "INR",
+        "format": "%@ INR",
+        "symbol": "INR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 32500,
+      "freeShippingMinAmount": 6500,
+      "shipmentPrice": 790,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "667",
+      "isoCode": "MV",
+      "isoMango": "MV",
+      "name": "Maldives",
+      "analyticsLabel": "maldivas",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "USD",
+        "format": "USD %@",
+        "symbol": "$"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1500,
+      "freeShippingMinAmount": 75,
+      "shipmentPrice": 6.95,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "669",
+      "isoCode": "LK",
+      "isoMango": "LK",
+      "name": "Sri Lanka",
+      "analyticsLabel": "sri lanka",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "LKR",
+        "format": "LKR %@",
+        "symbol": "LKR"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "676",
+      "isoCode": "MM",
+      "isoMango": "MM",
+      "name": "Myanmar",
+      "analyticsLabel": "myanmar",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "MMK",
+        "format": "MMK %@",
+        "symbol": "MMK"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "shops": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "680",
+      "isoCode": "TH",
+      "isoMango": "TH",
+      "name": "Thailand",
+      "analyticsLabel": "tailandia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "THB",
+        "format": "THB %@",
+        "symbol": "THB"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "684",
+      "isoCode": "LA",
+      "isoMango": "LA",
+      "name": "Laos ",
+      "analyticsLabel": "lao",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "LAK",
+        "format": "LAK %@",
+        "symbol": "LAK"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "shops": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "690",
+      "isoCode": "VN",
+      "isoMango": "VN",
+      "name": "Vietnam ",
+      "analyticsLabel": "vietnam",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "VND",
+        "format": "%@ VND",
+        "symbol": "VND"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "696",
+      "isoCode": "KH",
+      "isoMango": "KH",
+      "name": "Cambodia",
+      "analyticsLabel": "camboya ",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "USD",
+        "format": "USD %@",
+        "symbol": "$"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "700",
+      "isoCode": "ID",
+      "isoMango": "ID",
+      "name": "Indonesia",
+      "analyticsLabel": "indonesia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "IDR",
+        "format": "%@ IDR",
+        "symbol": "IDR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 10,
+      "cartMaxAmount": 9999999,
+      "freeShippingMinAmount": 1000000,
+      "shipmentPrice": 95000,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "701",
+      "isoCode": "MY",
+      "isoMango": "MY",
+      "name": "Malaysia",
+      "analyticsLabel": "malasia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "MYR",
+        "format": "%@ MYR",
+        "symbol": "MYR"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 4500,
+      "freeShippingMinAmount": 400,
+      "shipmentPrice": 40,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "706",
+      "isoCode": "SG",
+      "isoMango": "SG",
+      "name": "Singapore",
+      "analyticsLabel": "singapur",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "SGD",
+        "format": "%@ SGD",
+        "symbol": "SGD"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "baby",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 2000,
+      "freeShippingMinAmount": 79,
+      "shipmentPrice": 20,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "708",
+      "isoCode": "PH",
+      "isoMango": "PH",
+      "name": "Philippines",
+      "analyticsLabel": "filipinas",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "PHP",
+        "format": "%@ PHP",
+        "symbol": "PHP"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 21000,
+      "freeShippingMinAmount": 8000,
+      "shipmentPrice": 200,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "716",
+      "isoCode": "MN",
+      "isoMango": "MN",
+      "name": "Mongolia",
+      "analyticsLabel": "mongolia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "MNT",
+        "format": "%@ MNT",
+        "symbol": "MNT"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "720",
+      "isoCode": "CN",
+      "isoMango": "CN",
+      "name": "China",
+      "analyticsLabel": "china",
+      "languages": [
+        {
+          "code": "ZH",
+          "iso2": "zh",
+          "label": "中文"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "CNY",
+        "format": "%@ CNY",
+        "symbol": "CNY"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 12900,
+      "freeShippingMinAmount": 199,
+      "shipmentPrice": 10,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "728",
+      "isoCode": "KR",
+      "isoMango": "KR",
+      "name": "South Korea",
+      "analyticsLabel": "corea del sur",
+      "languages": [
+        {
+          "code": "KO",
+          "iso2": "ko",
+          "label": "한국어"
+        },
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "KRW",
+        "format": "%@ KRW",
+        "symbol": "KRW"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 2000000,
+      "freeShippingMinAmount": 50000,
+      "shipmentPrice": 3000,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": false,
+      "privacyPolicy": true,
+      "gdpr": true
+    },
+    {
+      "code": "732",
+      "isoCode": "JP",
+      "isoMango": "JP",
+      "name": "Japan",
+      "analyticsLabel": "japon",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "JPY",
+        "format": "JPY %@",
+        "symbol": "JPY"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "shops": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 195000,
+      "freeShippingMinAmount": 5000,
+      "shipmentPrice": 450,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "736",
+      "isoCode": "TW",
+      "isoMango": "TW",
+      "name": "Taiwan area",
+      "analyticsLabel": "taiwan",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "TWD",
+        "format": "TWD %@",
+        "symbol": "TWD"
+      },
+      "online": false,
+      "brands": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "740",
+      "isoCode": "HK",
+      "isoMango": "HK",
+      "name": "Hong Kong SAR of China",
+      "analyticsLabel": "hong kong",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "HKD",
+        "format": "%@ HKD",
+        "symbol": "HKD"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "nina",
+        "nino",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 15000,
+      "freeShippingMinAmount": 1500,
+      "shipmentPrice": 100,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "743",
+      "isoCode": "MO",
+      "isoMango": "MO",
+      "name": "Macao SAR of China",
+      "analyticsLabel": "macao",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "HKD",
+        "format": "HKD %@",
+        "symbol": "HKD"
+      },
+      "online": true,
+      "brands": [
+        "she"
+      ],
+      "shops": [
+        "she"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 15000,
+      "freeShippingMinAmount": 1000,
+      "shipmentPrice": 100,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "800",
+      "isoCode": "AU",
+      "isoMango": "AU",
+      "name": "Australia",
+      "analyticsLabel": "australia",
+      "languages": [
+        {
+          "code": "IN",
+          "iso2": "en",
+          "label": "English"
+        }
+      ],
+      "mng": true,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "AUD",
+        "format": "%@ AUD",
+        "symbol": "AUD"
+      },
+      "online": true,
+      "brands": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "nina",
+        "nino",
+        "violeta",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 1000,
+      "freeShippingMinAmount": 100,
+      "shipmentPrice": 9.5,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    },
+    {
+      "code": "809",
+      "isoCode": "NC",
+      "isoMango": "NC",
+      "name": "New Caledonia",
+      "analyticsLabel": "nueva caledonia y dependencias",
+      "languages": [
+        {
+          "code": "FR",
+          "iso2": "fr",
+          "label": "Français"
+        }
+      ],
+      "mng": false,
+      "states": false,
+      "inverseSeason": false,
+      "currency": {
+        "code": "XPF",
+        "format": "XPF %@",
+        "symbol": "XPF"
+      },
+      "online": false,
+      "brands": [
+        "she",
+        "he",
+        "mbrand"
+      ],
+      "shops": [
+        "she",
+        "he",
+        "mbrand"
+      ],
+      "cartMaxUnits": 40,
+      "cartMaxAmount": 0,
+      "freeShippingMinAmount": 0,
+      "shipmentPrice": 0,
+      "newsletterCheck": true,
+      "newsletterLegalText": false,
+      "newsletterCheckMarked": true,
+      "privacyPolicy": false,
+      "gdpr": false
+    }
+  ]
+}
