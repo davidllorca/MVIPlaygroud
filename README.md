@@ -9,7 +9,7 @@
 - Practicar, practicar y practicar. Learning by doing.
 
 ## Descripción :book:
-> TL;TR: Listado donde se puede filtrar por el nombre del país y al clicar en un item se navega a una pantalla nueva. El ejercicio consiste en transformar la implementación actual a un diseño Model View Intent
+> TL;DR: Listado donde se puede filtrar por el nombre del país y al clicar en un item se navega a una pantalla nueva. El ejercicio consiste en transformar la implementación actual a un diseño Model View Intent
 
  La arquitectura elegida ha sido "Spaguetti architecture":spaghetti:, se explica por si sola.
  - `SelectCountryActivity.kt`: Toda la magia sucede aquí.
@@ -64,22 +64,22 @@ El código inicial  cumple los siguientes requerimientos:
 - TODO: Mostrar en el listado las diferentes combinaciones país-idioma existentes
 
 ## Algo de literatura sobre el tema :books:
-https://proandroiddev.com/mvc-mvp-mvvm-clean-viper-redux-mvi-prnsaaspfruicc-building-abstractions-for-the-sake-of-building-18459ab89386
-https://proandroiddev.com/architecture-in-jetpack-compose-mvp-mvvm-mvi-17d8170a13fd
+- https://proandroiddev.com/mvc-mvp-mvvm-clean-viper-redux-mvi-prnsaaspfruicc-building-abstractions-for-the-sake-of-building-18459ab89386
+- https://proandroiddev.com/architecture-in-jetpack-compose-mvp-mvvm-mvi-17d8170a13fd
 
-http://hannesdorfmann.com/android/model-view-intent/
-https://www.raywenderlich.com/817602-mvi-architecture-for-android-tutorial-getting-started
-https://medium.com/quality-content/mvi-a-reactive-architecture-pattern-45c6f5096ab7
-https://proandroiddev.com/mvi-a-new-member-of-the-mv-band-6f7f0d23bc8a
-https://quickbirdstudios.com/blog/android-mvi-kotlin-coroutines-flow/
+- http://hannesdorfmann.com/android/model-view-intent/
+- https://www.raywenderlich.com/817602-mvi-architecture-for-android-tutorial-getting-started
+- https://medium.com/quality-content/mvi-a-reactive-architecture-pattern-45c6f5096ab7
+- https://proandroiddev.com/mvi-a-new-member-of-the-mv-band-6f7f0d23bc8a
+- https://quickbirdstudios.com/blog/android-mvi-kotlin-coroutines-flow/
 
-https://medium.com/swlh/mvi-architecture-with-android-fcde123e3c4a
-https://proandroiddev.com/mvi-architecture-with-kotlin-flows-and-channels-d36820b2028d
+- https://medium.com/swlh/mvi-architecture-with-android-fcde123e3c4a
+- https://proandroiddev.com/mvi-architecture-with-kotlin-flows-and-channels-d36820b2028d
 
-https://www.youtube.com/watch?v=M34NoFI1-6I
-https://www.youtube.com/watch?v=Ls0uKLqNFz4
+- https://www.youtube.com/watch?v=M34NoFI1-6I
+- https://www.youtube.com/watch?v=Ls0uKLqNFz4
 
-https://badoo.github.io/MVICore/
-https://github.com/Tinder/StateMachine
-https://github.com/freeletics/RxRedux
-https://github.com/spotify/mobius
+- https://badoo.github.io/MVICore/
+- https://github.com/Tinder/StateMachine
+- https://github.com/freeletics/RxRedux
+- https://github.com/spotify/mobius
