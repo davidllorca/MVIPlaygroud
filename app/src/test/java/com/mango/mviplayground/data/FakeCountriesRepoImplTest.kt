@@ -1,7 +1,7 @@
 package com.mango.mviplayground.data
 
-import com.mango.mviplayground.CountriesRepo
-import com.mango.mviplayground.FakeCountriesRepoImpl
+import com.mango.mviplayground.selectcountry.domain.CountriesRepo
+import com.mango.mviplayground.selectcountry.data.FakeCountriesRepoImpl
 import org.junit.Test
 
 class FakeCountriesRepoImplTest {

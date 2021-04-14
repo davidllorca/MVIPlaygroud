@@ -1,4 +1,4 @@
-package com.mango.mviplayground
+package com.mango.mviplayground.selectcountry.data
 
 import com.fasterxml.jackson.annotation.JsonProperty
 
