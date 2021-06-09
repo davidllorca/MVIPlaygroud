@@ -36,6 +36,6 @@ sealed class SelectCountryState(val loading: Boolean) {
 
 data class SelectCountryStatePayload(
     val countryList: List<Country> = emptyList(),
-    val displayCountryList: List<Country> = emptyList(),
+    val displayCountryList: List<CountryView> = emptyList(),
     val queryText: String? = null
 )

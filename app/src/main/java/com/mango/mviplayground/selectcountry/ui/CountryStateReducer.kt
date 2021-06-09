@@ -9,38 +9,46 @@ sealed class CountryAction {
     class SetError(val msg: String) : CountryAction()
 }
 
-fun countryStateReducer(state: SelectCountryState, action: Any): SelectCountryState {
-    val countryAction = action as? CountryAction ?: return state
-    return when (countryAction) {
-        CountryAction.Loading -> when (state) {
-            is SelectCountryState.Error -> SelectCountryState.HappyPath(
-                true,
-                SelectCountryStatePayload()
-            )
-            is SelectCountryState.HappyPath -> SelectCountryState.HappyPath(true, state.payload)
-        }
-        is CountryAction.SetCountries -> if (state is SelectCountryState.HappyPath) {
-            SelectCountryState.HappyPath(
-                false,
-                SelectCountryStatePayload(
-                    countryList = countryAction.countries,
-                    displayCountryList = countryAction.displayed,
-                    queryText = state.payload.queryText
+typealias CountryViewMapper = (Country) -> CountryView
+
+fun defaultMapper(): CountryViewMapper = { country -> CountryView(country.mangoCode, country.name, country.languages.first().displayName) }
+
+class SelectCountryReducer(
+    private val mapper: CountryViewMapper = defaultMapper()
+) {
+    fun countryStateReducer(state: SelectCountryState, action: Any): SelectCountryState {
+        val countryAction = action as? CountryAction ?: return state
+        return when (countryAction) {
+            CountryAction.Loading -> when (state) {
+                is SelectCountryState.Error -> SelectCountryState.HappyPath(
+                    true,
+                    SelectCountryStatePayload()
                 )
-            )
-        } else {
-            // Nothing in error state
-            state
+                is SelectCountryState.HappyPath -> SelectCountryState.HappyPath(true, state.payload)
+            }
+            is CountryAction.SetCountries -> if (state is SelectCountryState.HappyPath) {
+                SelectCountryState.HappyPath(
+                    false,
+                    SelectCountryStatePayload(
+                        countryList = countryAction.countries,
+                        displayCountryList = countryAction.displayed.map(mapper),
+                        queryText = state.payload.queryText
+                    )
+                )
+            } else {
+                // Nothing in error state
+                state
+            }
+            is CountryAction.SetFilterText -> if (state is SelectCountryState.HappyPath) {
+                SelectCountryState.HappyPath(
+                    state.loading,
+                    state.payload.copy(queryText = countryAction.queryText)
+                )
+            } else {
+                // Nothing in error state
+                state
+            }
+            is CountryAction.SetError -> SelectCountryState.Error(countryAction.msg)
         }
-        is CountryAction.SetFilterText -> if (state is SelectCountryState.HappyPath) {
-            SelectCountryState.HappyPath(
-                state.loading,
-                state.payload.copy(queryText = countryAction.queryText)
-            )
-        } else {
-            // Nothing in error state
-            state
-        }
-        is CountryAction.SetError -> SelectCountryState.Error(countryAction.msg)
     }
 }

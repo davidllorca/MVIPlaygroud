@@ -1,12 +1,14 @@
-package com.mango.mviplayground.selectcountry.ui
+package com.mango.mviplayground.selectcountry.domain
 
 import arrow.core.Either
 import com.mango.mviplayground.AppFactory
-import com.mango.mviplayground.selectcountry.domain.CountriesRepo
 import com.mango.mviplayground.LocationManager
+import com.mango.mviplayground.selectcountry.ui.CountryAction
+import com.mango.mviplayground.selectcountry.ui.SelectCountryState
 import com.mango.mviplayground.toSafeDispatcher
 import kotlinx.coroutines.*
 import org.reduxkotlin.Dispatcher
+import org.reduxkotlin.Thunk
 
 interface SelectCountryScope : CoroutineScope {
     val countryRepo: CountriesRepo

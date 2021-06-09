@@ -10,7 +10,12 @@ import androidx.compose.runtime.produceState
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.viewmodel.compose.LocalViewModelStoreOwner
 import com.mango.mviplayground.*
-import com.mango.mviplayground.selectcountry.ui.*
+import com.mango.mviplayground.selectcountry.domain.SelectCountryScope
+import com.mango.mviplayground.selectcountry.domain.SelectCountryScopeImpl
+import com.mango.mviplayground.selectcountry.domain.fetchCountriesUseCase
+import com.mango.mviplayground.selectcountry.ui.CountryScreen
+import com.mango.mviplayground.selectcountry.ui.SelectCountryReducer
+import com.mango.mviplayground.selectcountry.ui.SelectCountryState
 import org.reduxkotlin.applyMiddleware
 import org.reduxkotlin.createThreadSafeStore
 import org.reduxkotlin.createThunkMiddleware
@@ -20,10 +25,13 @@ class SelectCountryActivity : AppCompatActivity() {
     private val analyticTracker: AnalyticTracker by lazy { AppFactory.getTracker() }
     private val navigator: Navigator by lazy { AppFactory.getNavigator() }
 
+    // RFC: Injected maybe?
+    private val reducer by lazy { SelectCountryReducer() }
+
     // Boilerplate, extract common initializations
     private val store by lazy {
         createThreadSafeStore(
-            ::countryStateReducer,
+            reducer::countryStateReducer,
             SelectCountryState.INITIAL,
             applyMiddleware(
                 createThunkMiddleware(),

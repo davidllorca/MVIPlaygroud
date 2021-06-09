@@ -1,17 +1,27 @@
 package com.mango.mviplayground.selectcountry.ui
 
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.*
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
+import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.input.TextFieldValue
+import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.tooling.preview.PreviewParameter
+import androidx.compose.ui.tooling.preview.datasource.CollectionPreviewParameterProvider
+import androidx.compose.ui.unit.TextUnit
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.mango.mviplayground.getScopedDispatch
-import com.mango.mviplayground.selectcountry.data.Country
+import com.mango.mviplayground.selectcountry.domain.SelectCountryScope
+import com.mango.mviplayground.selectcountry.domain.filterCountriesUseCase
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+import kotlin.time.ExperimentalTime
+import kotlin.time.milliseconds
 
 fun rememberErrorMsg(state: SelectCountryState): String? {
     return when (state) {
@@ -27,13 +37,14 @@ fun rememberQueryText(state: SelectCountryState): String?  {
     }
 }
 
-fun rememberCountryList(state: SelectCountryState): List<Country>  {
+fun rememberCountryList(state: SelectCountryState): List<CountryView>  {
     return when (state) {
-        is SelectCountryState.Error -> emptyList<Country>()
+        is SelectCountryState.Error -> emptyList()
         is SelectCountryState.HappyPath -> state.payload.displayCountryList
     }
 }
 
+@OptIn(ExperimentalTime::class)
 @Composable
 fun CountryScreen(state: SelectCountryState) {
 //    val viewModel = viewModel<SelectCountryViewModel>()
@@ -47,32 +58,66 @@ fun CountryScreen(state: SelectCountryState) {
 
     val scopedDispatch = getScopedDispatch<SelectCountryScope>()
 
+    val coroutineScope = rememberCoroutineScope()
+
     MaterialTheme {
         CountryScreenScaffold(
             error != null,
             textQuery,
             onTextChanged = { textUpdated ->
-                scopedDispatch.dispatch {
-                    filterCountriesUseCase(textUpdated)
+                coroutineScope.launch {
+                    delay(2000.milliseconds)
+                    scopedDispatch.dispatch {
+                        filterCountriesUseCase(textUpdated)
+                    }
                 }
             }
         ) { paddingValues ->
             LazyColumn(contentPadding = paddingValues) {
                 items(countries) { c ->
-                    Column(
-                        Modifier
-                            .fillParentMaxWidth()
-                    ) {
-                        Text(c.name)
-                        c.languages.firstOrNull()?.let { lang ->
-                            Text(lang.displayName)
-                        }
-                    }
-                    Divider()
+                    CountryItem(
+                        c,
+                        Modifier.fillParentMaxWidth()
+                    )
                 }
             }
         }
     }
+}
+
+data class CountryView(val id: String, val name: String, val language: String)
+
+@Composable
+private fun CountryItem(country: CountryView, modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier
+            .clickable {  }
+            .padding(16.dp)
+    ) {
+        Text(country.name)
+        Spacer(modifier = Modifier.height(2.dp))
+        Text(country.language, fontSize = 10.sp)
+    }
+    Divider()
+}
+
+val items = List(2) { idx ->
+    val idxCode = idx.toString().padStart(4, '0')
+    CountryView(idxCode, "Country $idxCode", "Language of country $idxCode")
+}
+
+class CountriesProvider : CollectionPreviewParameterProvider<CountryView>(items)
+
+@Preview(
+    backgroundColor = 0xffffffff,
+    name = "Country Cell",
+    showBackground = true
+)
+@Composable
+fun PreviewCountryItem(
+    @PreviewParameter(CountriesProvider::class) country: CountryView
+) {
+    CountryItem(country = country, modifier = Modifier.fillMaxWidth())
 }
 
 @Composable
@@ -83,9 +128,7 @@ fun CountryScreenScaffold(
     modifier: Modifier = Modifier,
     content: @Composable (PaddingValues) -> Unit
 ) {
-
     var queryTextValue by remember { mutableStateOf(TextFieldValue(text ?: "")) }
-
 
 //    val queryTextValue = remember(text) { TextFieldValue(text ?: "") }
     val onValueChange: (TextFieldValue) -> Unit = remember {

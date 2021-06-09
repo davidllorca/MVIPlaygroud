@@ -1,20 +1,19 @@
 package com.mango.mviplayground.selectcountry.data
 
+import android.content.Context
 import android.util.Log
 import arrow.core.Either
 import com.mango.mviplayground.AppFactory
 import com.mango.mviplayground.selectcountry.domain.CountriesRepo
 
-class FakeCountriesRepoImpl : CountriesRepo {
+class FakeCountriesRepoImpl(private val context: Context) : CountriesRepo {
 
     override suspend fun getCountries(): Either<List<Country>, Error> {
         val parser = AppFactory.getParser()
 
-        val response = javaClass.classLoader?.getResourceAsStream(
-            "countries_response.json"
-        ).use { parser.readValue(it, CountryResponse::class.java) }
-
-        return Either.left(response.countries)
+        return context.assets.open("countries_response.json").use {
+            Either.left(parser.readValue(it, CountryResponse::class.java).countries)
+        }
     }
 
     override suspend fun setCountry(country: Country): Either<Unit, Error> {
