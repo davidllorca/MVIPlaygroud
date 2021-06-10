@@ -34,6 +34,7 @@ android {
     }
     buildFeatures {
         compose true
+        viewBinding true
     }
 
     composeOptions {
@@ -92,13 +93,16 @@ dependencies {
     // Integration with observables
     implementation 'androidx.compose.runtime:runtime-livedata:1.0.0-beta07'
 
+    implementation "com.jakewharton.timber:timber:4.7.1"
+
 
     // Arch components
-    def lifecycle_version = "2.3.1"
+    def lifecycle_version = "2.4.0-alpha01"
     def arch_version = "2.1.0"
 
     // ViewModel
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
     // LiveData
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
 

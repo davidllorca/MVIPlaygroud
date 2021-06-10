@@ -1,12 +1,13 @@
 package com.mango.mviplayground
 
-import android.util.Log
 import androidx.compose.runtime.*
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.reduxkotlin.Dispatcher
 import org.reduxkotlin.Store
+import org.reduxkotlin.middleware
+import timber.log.Timber
 
 typealias SafeDispatcher = suspend ((Any) -> Any)
 
@@ -23,18 +24,14 @@ fun Dispatcher.toSafeDispatcher(coroutineDispatcher: CoroutineDispatcher = Dispa
     }
 }
 
-fun <State> createLoggingMiddleware(): (Store<State>) -> (Dispatcher) -> (Any) -> Any = { store ->
-    { next: Dispatcher ->
-        { action: Any ->
-            if (action is Function<*>) {
-                throw IllegalStateException("Shouldn't reach this")
-            } else {
-                Log.d("Borrame", "Received command: $action")
-                val res = next(action)
-                Log.d("Borrame", "Result is: ${store.state}")
-                res
-            }
-        }
+fun <State> createLoggingMiddleware(): (Store<State>) -> (Dispatcher) -> (Any) -> Any = middleware { store, next, action ->
+    if (action is Function<*>) {
+        throw IllegalStateException("Shouldn't reach this")
+    } else {
+        Timber.d("Received command: $action")
+        val res = next(action)
+        Timber.d("Result is: ${store.state}")
+        res
     }
 }
 

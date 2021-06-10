@@ -5,19 +5,24 @@ import android.util.Log
 import arrow.core.Either
 import com.mango.mviplayground.AppFactory
 import com.mango.mviplayground.selectcountry.domain.CountriesRepo
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import timber.log.Timber
 
 class FakeCountriesRepoImpl(private val context: Context) : CountriesRepo {
 
     override suspend fun getCountries(): Either<List<Country>, Error> {
-        val parser = AppFactory.getParser()
+        return withContext(Dispatchers.IO) {
+            val parser = AppFactory.getParser()
 
-        return context.assets.open("countries_response.json").use {
-            Either.left(parser.readValue(it, CountryResponse::class.java).countries)
+            context.assets.open("countries_response.json").use {
+                Either.left(parser.readValue(it, CountryResponse::class.java).countries)
+            }
         }
     }
 
     override suspend fun setCountry(country: Country): Either<Unit, Error> {
-        Log.d("CountryRepo", "${country.analyticsLabel} set as country")
+        Timber.tag("CountryRepo").d("${country.analyticsLabel} set as country")
         return Either.left(Unit)
     }
 

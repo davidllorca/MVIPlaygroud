@@ -1,7 +1,35 @@
-package com.mango.mviplayground.selectcountry.ui
+package com.mango.mviplayground.selectcountry.presentation.ui
 
 import androidx.compose.runtime.Immutable
+import com.mango.mviplayground.presentation.ToolbarState
 import com.mango.mviplayground.selectcountry.data.Country
+import com.mango.mviplayground.selectcountry.presentation.CountryViewMapper
+
+
+class CountryScreenState(
+    val bodyState: SelectCountryState,
+    val toolbarState: ToolbarState
+) {
+    override fun toString(): String {
+        return "CountryScreenState(bodyState=$bodyState, toolbarState=$toolbarState)"
+    }
+
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (other !is CountryScreenState) return false
+
+        if (bodyState != other.bodyState) return false
+        if (toolbarState != other.toolbarState) return false
+
+        return true
+    }
+
+    override fun hashCode(): Int {
+        var result = bodyState.hashCode()
+        result = 31 * result + toolbarState.hashCode()
+        return result
+    }
+}
 
 @Immutable
 sealed class SelectCountryState(val loading: Boolean) {
@@ -39,3 +67,16 @@ data class SelectCountryStatePayload(
     val displayCountryList: List<CountryView> = emptyList(),
     val queryText: String? = null
 )
+
+
+data class CountryView(val id: CountryKey, val name: String, val language: String)
+data class CountryKey(val countryId: String, val languageIso: String)
+
+fun defaultMapper(): CountryViewMapper = { country, selectedLangIso ->
+    val key = CountryKey(country.mangoCode, selectedLangIso)
+    CountryView(
+        key,
+        country.name,
+        country.languages.first { it.isoCode == selectedLangIso }.displayName
+    )
+}

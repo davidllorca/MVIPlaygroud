@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".selectcountry.SelectCountryActivity">
+    tools:context=".selectcountry.presentation.SelectCountryActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
@@ -15,6 +15,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <include
+            android:id="@+id/group_toolbar"
             layout="@layout/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -23,14 +24,14 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/list_countries"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         app:layoutManager="LinearLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/app_bar"
+        app:layout_constraintTop_toBottomOf="@id/app_bar"
         tools:listitem="@layout/item_country"
         tools:visibility="visible" />
 
@@ -56,5 +57,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/app_bar"
         android:visibility="gone"/>
+
+    <FrameLayout
+        android:id="@+id/loading_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="true"/>
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

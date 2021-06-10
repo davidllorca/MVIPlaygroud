@@ -10,7 +10,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MVIPlayground">
-        <activity android:name=".selectcountry.SelectCountryActivity">
+        <activity android:name=".selectcountry.presentation.SelectCountryActivity">
+
+        </activity>
+        <activity android:name=".selectcountry.presentation.TraditionalSelectCountryActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

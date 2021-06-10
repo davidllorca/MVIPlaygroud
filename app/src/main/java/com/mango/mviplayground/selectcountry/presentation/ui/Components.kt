@@ -1,4 +1,4 @@
-package com.mango.mviplayground.selectcountry.ui
+package com.mango.mviplayground.selectcountry.presentation.ui
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -7,17 +7,15 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.tooling.preview.datasource.CollectionPreviewParameterProvider
-import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.mango.mviplayground.getScopedDispatch
-import com.mango.mviplayground.selectcountry.domain.SelectCountryScope
-import com.mango.mviplayground.selectcountry.domain.filterCountriesUseCase
+import com.mango.mviplayground.selectcountry.domain.v1.SelectCountryScope
+import com.mango.mviplayground.selectcountry.domain.v1.filterCountriesUseCase
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlin.time.ExperimentalTime
@@ -85,8 +83,6 @@ fun CountryScreen(state: SelectCountryState) {
     }
 }
 
-data class CountryView(val id: String, val name: String, val language: String)
-
 @Composable
 private fun CountryItem(country: CountryView, modifier: Modifier = Modifier) {
     Column(
@@ -103,7 +99,7 @@ private fun CountryItem(country: CountryView, modifier: Modifier = Modifier) {
 
 val items = List(2) { idx ->
     val idxCode = idx.toString().padStart(4, '0')
-    CountryView(idxCode, "Country $idxCode", "Language of country $idxCode")
+    CountryView(CountryKey(idxCode, idxCode), "Country $idxCode", "Language of country $idxCode")
 }
 
 class CountriesProvider : CollectionPreviewParameterProvider<CountryView>(items)

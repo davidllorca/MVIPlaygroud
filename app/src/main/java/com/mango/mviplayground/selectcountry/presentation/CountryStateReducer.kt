@@ -1,6 +1,10 @@
-package com.mango.mviplayground.selectcountry.ui
+package com.mango.mviplayground.selectcountry.presentation
 
 import com.mango.mviplayground.selectcountry.data.Country
+import com.mango.mviplayground.selectcountry.presentation.ui.CountryView
+import com.mango.mviplayground.selectcountry.presentation.ui.SelectCountryState
+import com.mango.mviplayground.selectcountry.presentation.ui.SelectCountryStatePayload
+import com.mango.mviplayground.selectcountry.presentation.ui.defaultMapper
 
 sealed class CountryAction {
     object Loading : CountryAction()
@@ -9,10 +13,13 @@ sealed class CountryAction {
     class SetError(val msg: String) : CountryAction()
 }
 
-typealias CountryViewMapper = (Country) -> CountryView
+typealias CountryViewMapper = (Country, String) -> CountryView
 
-fun defaultMapper(): CountryViewMapper = { country -> CountryView(country.mangoCode, country.name, country.languages.first().displayName) }
-
+/**
+ * Reducers, only compute state transitions (valid ones, according input action and previous state)
+ *
+ * Return updated state if need to
+ */
 class SelectCountryReducer(
     private val mapper: CountryViewMapper = defaultMapper()
 ) {
@@ -31,7 +38,14 @@ class SelectCountryReducer(
                     false,
                     SelectCountryStatePayload(
                         countryList = countryAction.countries,
-                        displayCountryList = countryAction.displayed.map(mapper),
+                        displayCountryList = countryAction.displayed.flatMap { ctry ->
+                            ctry.languages.map {
+                                mapper(
+                                    ctry,
+                                    it.isoCode
+                                )
+                            }
+                        },
                         queryText = state.payload.queryText
                     )
                 )
