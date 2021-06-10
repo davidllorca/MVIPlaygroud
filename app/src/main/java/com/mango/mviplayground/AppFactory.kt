@@ -1,5 +1,6 @@
 package com.mango.mviplayground
 
+import android.content.Context
 import com.fasterxml.jackson.annotation.JsonAutoDetect
 import com.fasterxml.jackson.annotation.JsonInclude
 import com.fasterxml.jackson.annotation.PropertyAccessor
@@ -7,10 +8,14 @@ import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.databind.MapperFeature
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.KotlinModule
+import com.mango.mviplayground.selectcountry.data.FakeCountriesRepoImpl
+import com.mango.mviplayground.selectcountry.domain.CountriesRepo
 
 object AppFactory {
 
-    fun getCountryRepo(): CountriesRepo = FakeCountriesRepoImpl()
+    lateinit var context: Context
+
+    fun getCountryRepo(): CountriesRepo = FakeCountriesRepoImpl(context)
 
     fun getLocationManager(): LocationManager = FakeLocationManger()
 
